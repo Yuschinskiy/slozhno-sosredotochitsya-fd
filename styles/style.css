@@ -295,7 +295,7 @@
   .header__text {
     max-inline-size: 22.75rem;
     justify-self: end;
-    margin-block-end: 20px;
+    margin-block-end: 25px;
   }
 
   .content {
