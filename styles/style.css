@@ -264,7 +264,6 @@
 @media (width >= 768px) {
 
   .page {
-    padding-inline: 10px;
     gap: 60px;
   }
 
@@ -274,6 +273,10 @@
 
   .decorated-zone::after {
     bottom: 10px;
+  }
+
+  .header {
+    padding-inline: 10px;
   }
 
   .header__decor-rec {
@@ -297,6 +300,7 @@
 
   .content {
     gap: 80px;
+    padding-inline: 10px;
   }
 
   .section-why,
@@ -351,6 +355,7 @@
 
   .footer {
     min-height: 1024px;
+    padding-inline: 10px;
   }
 
   .footer__title {
@@ -361,7 +366,7 @@
 
 @media (width >= 1024px) {
 
-  .page {
+  .header {
     padding-inline: 10px;
   }
 
@@ -379,6 +384,10 @@
     max-inline-size: 30.6875rem;
   }
 
+  .content {
+    padding-inline: 10px;
+  }
+
   .section-why,
   .section-how {
     gap: 10px;
@@ -394,6 +403,7 @@
 
   .footer {
     min-height: 768px;
+    padding-inline: 10px;
   }
 
 }
