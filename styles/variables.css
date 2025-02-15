@@ -3,7 +3,7 @@
   и их переопределение под различные устройства
 */
 :root {
-  --background-image: url(../images/cover-image-dark.png);
+  --bg-image: url(../images/cover-image-dark.png);
   --bg-color: #000028;
   --title-color: #DB00FF;
   --accent-color: #FF0070;
@@ -25,6 +25,7 @@
 @media (width >= 768px) {
 
   :root {
+    --background-image: url(../images/cover-image.png);
     --logo-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem) ;
   }
 }

@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  background-color: var(--bg-color);
+  background-color: var(--bg-image);
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
@@ -279,7 +279,7 @@
     left: 20px;
   }
   .header {
-    padding-inline: 10px;
+    padding-inline: 20px;
   }
 
   .header__rec {
@@ -323,6 +323,7 @@
 
   .gallery {
     gap: 20px;
+    padding-inline: 20px;
   }
 
   .gallery__list {
@@ -358,7 +359,7 @@
   }
 
   .footer {
-    padding-inline: 10px;
+    padding-inline: 20px;
   }
 
   .footer__title {
@@ -374,7 +375,7 @@
   }
 
   .header {
-    padding-inline: 10px;
+    padding-inline: 20px;
   }
 
   .header__theme-menu {
@@ -392,7 +393,11 @@
   }
 
   .content {
-    padding-inline: 10px;
+    padding-inline: 20px;
+  }
+
+  .gallery {
+    padding-inline: 20px;
   }
 
   .section-why,
@@ -410,7 +415,7 @@
 
   .footer {
     min-height: 768px;
-    padding-inline: 10px;
+    padding-inline: 20px;
   }
 
 }
