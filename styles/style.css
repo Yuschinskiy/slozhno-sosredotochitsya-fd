@@ -5,7 +5,7 @@
   display: grid;
   grid-template-columns: 1fr;
   gap: 40px;
-  background-color: var(--bg-image);
+  background-color: var(--bg-color);
   background-image: var(--bg-image);
   background-size: cover;
   background-position: center;
@@ -323,7 +323,6 @@
 
   .gallery {
     gap: 20px;
-    padding-inline: 20px;
   }
 
   .gallery__list {
@@ -395,11 +394,7 @@
   .content {
     padding-inline: 20px;
   }
-
-  .gallery {
-    padding-inline: 20px;
-  }
-
+  
   .section-why,
   .section-how {
     gap: 10px;
